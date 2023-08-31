@@ -2,7 +2,7 @@
 
 use PHPUnit\Framework\TestCase;
 
-require("src/Calculator.php");
+// require("src/Calculator.php");
 
 class CalculatorTest extends TestCase
 {
@@ -10,7 +10,7 @@ class CalculatorTest extends TestCase
 
     protected function setUp() :void
     {
-        $this->calc = new Calculator();
+        $this->calc = new App\Calculator();
     }
 
     function testAddition()
